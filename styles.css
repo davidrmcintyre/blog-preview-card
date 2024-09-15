@@ -32,3 +32,59 @@ img {
 h1 {
     line-height: 1.1;
 }
+
+body {
+    font-family: var(--ff-main);
+    font-size: var(--fs-main);
+    font-weight: var(--fw-600);
+    color: var(--clr-grey);
+    background: var(--clr-yellow);
+}
+
+/* text styles */
+
+.blog-category, .blog-meta, .blog-title, .author-name {
+    color: var(--clr-black);
+}
+
+.blog-category {
+    display: inline-block;
+    font-weight: var(--fw-800);
+    padding: .5rem .8rem;
+    border-radius: 0.2rem;
+    background: var(--clr-yellow);
+}
+
+.blog-meta {
+    font-size: 14px;
+}
+
+.blog-title {
+    font-weight: var(--fw-800);
+    font-size: 1.4rem;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: var(--fw-800);
+}
+
+/* layout styles */
+
+.author-data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* general styles */
+
+.blog-container {
+    background: var(--clr-white);
+    width: 20em;
+}
+
+.author-image {
+    width: 3rem;
+
+}
